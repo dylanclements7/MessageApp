@@ -2,7 +2,7 @@ function addMsg(msg) {
     return `    
   <li class="list-group-item">
     <strong class="me-2">${msg.username}: </strong>
-    <span>${msg.message}.</span>
+    <span style="color:red">${msg.message}.</span>
   </li>`
 }
 
